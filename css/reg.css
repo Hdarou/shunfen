@@ -1,0 +1,235 @@
+:root{background-color: #F5F5F5;}
+
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+/*头部*/
+.header{
+	margin: 10px 0;
+}
+/*logo*/
+.header img{
+	width: 301px;
+	height: 75px;
+	vertical-align: middle;
+}
+/*标题*/
+.header>span{
+	height: 75px;
+	line-height: 75px;
+	font-size: 24px;
+	color: #515151;
+}
+/*主体*/
+.container>.title{
+	position: relative;
+	height: 38px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.container>.title>div:first-child{
+	position: absolute;
+	left: 380px;
+	top: 0px;
+	width: 163px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	background: transparent url(../img/tabbg.jpg) no-repeat center;
+}
+.title>.tolog{
+	padding-top: 14px;
+	font-size: 12px;
+	color: #565656;
+	
+}
+.title>.tolog>a{
+	color: #6e9b0c;
+}
+.container>.content{
+	background: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.container>.content>.formbox{
+	/*display: flex;
+	flex-direction: row;
+	justify-content: center;*/
+	margin-top: 40px;
+	padding: 20px 0;
+	border-bottom: 1px dashed #cdcdcd;
+	background: transparent url(../img/zhuce.jpg) no-repeat top right;
+}
+.formbox>form>ul{overflow: hidden;}
+.formbox>form>ul>li{
+	margin-bottom: 20px;
+}
+.formbox>form>ul>li>*{float: left;}
+.formbox>form>ul>li>label{
+	display: inline-block;
+	width: 118px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	text-align: right;
+	color: #515151;	
+}
+.formbox>form>ul>li>label>i{
+	color: #ff4800;
+	padding: 0 5px;
+}
+.formbox>form>ul>li>.inps{
+	display:block;
+	width: 280px;
+	height: 36px;
+	border: 1px solid #cdcdcd;
+}
+.formbox>form>ul>li>.inps>*{float: left;}
+/*提示信息*/
+.formbox>form>ul>li>.tip,.formbox>form>ul>li>.tip2,.formbox>form>ul>li>.tip3{
+	display: none;
+	padding-left: 10px;
+	font-size: 12px;
+	color:#515151 ;
+	line-height: 36px;
+}
+.formbox>form>ul>li>.tip2{color: #ff6700;}
+.formbox>form>ul>li>.twoL{
+	line-height: 18px;
+}
+.formbox>form>ul>li>.inps>input{
+	padding: 0 5px;
+	width: 238px;
+	height: 36px;
+	border: none;
+	outline: none;
+}
+/*勾号*/
+.formbox>form>ul>li>.inps>.gou{
+	display: none;
+	/*padding: 0 5px;*/
+	width: 23px;
+	height: 36px;
+	background: transparent url(../img/icon-true.jpg) no-repeat center;
+}
+/*安全程度*/
+.formbox>form>ul>.safe{
+	display: none;
+	/*text-align: right;*/
+	font-size: 12px;
+	margin: -10px 0 10px 210px;
+}
+.formbox>form>ul>.safe>span:nth-child(1){
+	color: #666;
+}
+.formbox>form>ul>.safe>span:nth-child(n+2){
+	padding: 0 10px;
+	color: #fff;
+	background: #c4c4c4;
+}
+/*验证码*/
+.formbox>form>ul>li>.yzm{
+	width: 70px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #cdcdcd;
+	outline: none;
+}
+.formbox>form>ul>li>.yzm>input{
+	padding: 0 5px;
+	width: 37px;
+	text-align: center;
+	outline: none;
+	border: none;
+}
+/*验证码图形*/
+.formbox>form>ul>li>.yzmpic{
+	text-align: center;
+	letter-spacing: 4px;
+	margin: 0 5px;
+	display: inline-block;
+	width: 70px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #cdcdcd;
+	background: #EDEDED;	
+}
+/*换一张*/
+.formbox>form>ul>li>.change{
+	line-height: 36px;
+	font-size: 12px;
+	color: #565656;
+	cursor: pointer;
+}
+/*同意条款*/
+.formbox>form>ul>.terms{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.formbox>form>ul>.terms>input{
+	margin-top: 2px;
+	display:block;
+}
+.formbox>form>ul>.terms>a{
+	padding-left: 5px;
+	font-size: 12px;
+	color: #565656;
+	
+}
+.formbox>form>ul>.terms>a>span{
+	color: #6e9b0c;
+}
+/*立即注册*/
+.formbox>form>ul>.regbtn>input{
+	margin-left: 83px;
+	text-align: center;
+	width: 271px;
+	height: 38px;
+	background: transparent url(../img/reg_btn.jpg) no-repeat 0px 0px;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.formbox>form>ul>.regbtn>input:hover{background-position-y: -38px;}
+/*了解更多*/
+.content>p{
+	position: relative;
+	margin: 20px 0 50px;
+	padding-left: 50px;
+	font-size: 12px;
+	color: #669900;
+}
+.content>p::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 30px;
+	width: 14px;
+	height: 13px;
+	background: transparent url(../img/reg_tip.png) no-repeat center;
+}
+
+
+/*尾部*/
+.footer{
+	padding: 20px 0;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+}
+.footer>p{
+	margin-bottom: 10px;
+}
+.footer>p>a{
+	color:#666 ;
+	cursor: pointer;
+}
+.footer>p:nth-child(1)>a:hover{
+text-decoration: underline;
+}

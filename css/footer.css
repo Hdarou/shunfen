@@ -1,0 +1,170 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear::after {
+	display: block;
+	content: '';
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+:root {
+	background: #FDFDFD;
+}
+
+
+/*尾部*/
+
+.footer {
+	width: 100%;
+	background: #fff;
+}
+
+
+/*尾部第一部分*/
+
+.footer>.footwrap {
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.footer>.footwrap>* {
+	float: left;
+}
+
+.footwrap>.footlogo {
+	width: 290px;
+}
+
+.footwrap>.footlogo>li {
+	margin-bottom: 10px;
+}
+
+.footwrap>.footlogo>li:nth-child(1) {
+	width: 151px;
+	height: 75px;
+	background: transparent url(../img/logo.jpg) no-repeat center;
+}
+
+.footwrap>.footlogo>li:nth-child(2) {
+	font-size: 20px;
+	font-weight: 600;
+	color: #646464;
+}
+
+.footwrap>.footlogo>li:nth-child(3) {
+	font-size: 12px;
+	color: #969696;
+}
+
+.footwrap>.footright {
+	padding-top: 20px;
+}
+
+.footwrap>.footright>* {
+	float: left;
+}
+
+.footwrap>.footright>dl>* {
+	margin-bottom: 8px;
+	width: 120px;
+}
+
+.footwrap>.footright>dl>dt {
+	font-size: 14px;
+	color: #707070;
+	font-weight: 600;
+}
+
+.footwrap>.footright>dl>dd {
+	font-size: 12px;
+	color: #646464;
+}
+
+.footright>ul>li:first-child {
+	text-align: center;
+	font-size: 14px;
+	color: #707070;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.footright>ul>li:last-child {
+	width: 80px;
+	height: 80px;
+	background: transparent url(../img/foot_bottom.png) no-repeat 0px 0px;
+}
+
+.footright>ul:last-of-type {
+	margin-left: 50px;
+}
+
+.footright>ul:last-of-type>li:last-child {
+	background: transparent url(../img/foot_bottom.png) no-repeat -83px 0;
+}
+
+
+/*尾部第二部分*/
+
+.footer>.links {
+	border-top: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+
+.links>.linkspic>li {
+	float: left;
+	width: 94px;
+	height: 33px;
+}
+
+.linkspic>li:nth-child(1) {
+	background: transparent url(../img/foot-credit.png) no-repeat center;
+	background-size: contain;
+}
+
+.linkspic>li:nth-child(2) {
+	background: transparent url(../img/foot-cert.png) no-repeat center;
+	background-size: contain;
+}
+
+.linkspic>li:nth-child(3) {
+	background: transparent url(../img/foot-bottom_sm.png) no-repeat center;
+	background-size: contain;
+}
+
+.links>.linksright>ul {
+	color: #969696;
+	font-size: 12px;
+}
+
+.links>.linksright>ul>li {
+	float: left;
+	padding: 0px 10px;
+}
+
+.links>.linksright>ul:first-child>li:nth-child(-n+4) {
+	color: #646464;
+	cursor: pointer;
+}
+
+.links>.linksright>ul:first-child>li:nth-child(-n+4):hover,
+.links>.linksright>ul:last-child>li:nth-child(n+2):hover {
+	color: #669900;
+}
+
+.links>.linksright>ul:last-child>li:nth-child(n+2) {
+	cursor: pointer;
+}

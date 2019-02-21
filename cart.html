@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script src="js/jquery.js"></script>
+		
+		<script src="js/cart.js"></script>
+	</head>
+	<body>
+		<!--------------头部导航开始--------------------->
+		<div class="topcon">
+			<div class="topwrap">
+				<ul class="topleft">
+					<li>冷链配送 顺丰到家 送至:</li>
+					<li>
+						<span class="area">广州</span>
+						<div class="arealist">
+							<p>请选择您的收货城市：</p>
+							<ul class="hotcity clear">
+								<li><a href="#">北京</a></li>
+								<li><a href="#">上海</a></li>
+								<li><a href="#">广州</a></li>
+								<li><a href="#">深圳</a></li>
+								<li><a href="#">天津</a></li>
+								<li><a href="#">苏州</a></li>
+								<li><a href="#">杭州</a></li>
+								<li><a href="#">南京</a></li>
+								<li><a href="#">无锡</a></li>
+								<li><a href="#">青岛</a></li>
+								<li><a href="#">武汉</a></li>
+							</ul>
+							<p>更多城市:</p>
+							<dl class="clear">
+								<dt>华东:</dt>
+								<dd>上海</dd>
+								<dd>浙江</dd>
+								<dd>江苏</dd>
+								<dd>安徽</dd>
+							</dl>
+							<dl class="clear">
+								<dt>华东:</dt>
+								<dd>上海</dd>
+								<dd>浙江</dd>
+								<dd>江苏</dd>
+								<dd>安徽</dd>
+							</dl>
+						</div>
+					</li>
+				</ul>
+				<ul class="topright">
+					<li id="huanying">嘿，欢迎来顺丰优选！  </li>
+					<li id="loginuser"><b>17777356267</b>,欢迎您！</li>
+					<li id="quit">[退出]</li>
+					<li class="login"><a href="log.html">请登录</a></li>
+					<li class="reg">
+						<a href="reg.html">免费注册</a>
+						<div>新会员注册送100元优惠券大礼包<div class="sj"></div></div>
+					</li>
+					<li>
+						<span>我的订单</span>
+					</li>
+					<li>
+						<span class="asj">我的优选</span>
+						<div class="subnav bz">
+							<ul>
+								<li>我的订单</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<span class="pho">移动客户端</span>
+						<div class="subnav subpho">
+							<div>
+								<i></i>
+								<div>
+									<span>扫描我，即可下载</span><br />
+									<span>顺丰优选客户端</span>									
+								</div>
+							</div>
+							<div>
+								<i></i>
+								<i></i>
+							</div>
+							<div>
+								先摇卷 后买单
+							</div>	
+							<div class="sj"></div>
+						</div>
+					</li>
+					<li>
+						<span class="asj">帮助中心</span>
+						<div class="subnav bz">
+							<ul>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+								<li>购物指南</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<span class="asj">网站导航</span>
+						<div class="subnav">
+							<dl>
+								<dt>商品分类</dt>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+							</dl>
+							<dl>
+								<dt>特色频道</dt>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+							</dl>
+							<dl>
+								<dt>更多</dt>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+								<dd>肉类海鲜</dd>
+							</dl>
+						</div>
+					</li>
+					<li class="weibo"><i></i></li>
+					<li class="weixin">
+						<i></i>
+						<div class="wenxinshow">
+							关注顺丰优选微信
+							<div class="pic"></div>
+							<div class="sj"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--------------头部导航结束--------------------->
+		<!--------------头部搜索框部分开始--------------------->
+		<div class="container">
+
+			<div class="seawrap clear">
+			<!--logo-->
+				<div class="logo">
+					<a href="index.html"></a>
+					<a href="index.html"></a>
+					<i></i>
+				</div>
+				<i></i>
+				<!--<img src="img/step_01.jpg"/>-->
+			</div>
+		</div>
+		<!--------------头部搜索框部分结束--------------------->	
+		<!--------------商品渲染--------------------->	
+		<div class="shopcarwrap">
+			<ul class="title clear showline">
+				<li>
+					<input id="allcheck" type="checkbox"/>全选
+				</li>
+				<li>商品</li>
+				<li>单价</li>
+				<li>优惠</li>
+				<li>数量</li>
+				<li>重量(含包装)</li>
+				<li>小计</li>
+				<li>库存状态</li>
+				<li>操作</li>
+			</ul>
+			<ul class="showlist">
+				<!--<li></li>-->
+			</ul>
+			<div class="allbox clear">
+				<span id="redan">删除选中的商品</span>
+				<span id="reAll">清空购物车</span>
+				<div class="">
+					<!--<span>重量总计：<span>0</span>kg（含包装） （不含运费）</span>-->
+					<span>商品共计：<sapn id="allshowmo">0</sapn></span>
+				</div>
+			</div>
+			<div class="jiesuan clear">
+				<a href="#" class="gopay">去结算</a>
+				<a href="index.html" class="tohome">继续购物</a>
+			</div>
+		</div>
+		<!--空购物车-->
+		<div class="kongcar">
+			<p><span>购物车暂无商品数据 </span> <a href="index.html"> 现在就去购物 >></a></p>
+			<p class="nolog">您的购物车是空的，可能是您尚未登录，<a href="log.html">马上登录</a>再看看</p>
+		</div>
+		
+		
+		
+		
+		<!--尾部-->
+		<div class="footer">
+			<div class="footwrap clear">
+				<ul class="footlogo">
+					<li></li>
+					<li>9533858</li>
+					<li>周一至周日8:30-22:00</li>
+				</ul>
+				<div class="footright">
+					<dl>
+						<dt>购物指南</dt>
+						<dd>积分制度</dd>
+						<dd>会员介绍</dd>
+						<dd>购物流程</dd>
+						<dd>常见问题</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>积分制度</dd>
+						<dd>会员介绍</dd>
+						<dd>购物流程</dd>
+						<dd>常见问题</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>积分制度</dd>
+						<dd>会员介绍</dd>
+						<dd>购物流程</dd>
+						<dd>常见问题</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>积分制度</dd>
+						<dd>会员介绍</dd>
+						<dd>购物流程</dd>
+						<dd>常见问题</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>积分制度</dd>
+						<dd>会员介绍</dd>
+						<dd>购物流程</dd>
+						<dd>常见问题</dd>
+					</dl>
+					<ul>
+						<li>手机客户端</li>
+						<li></li>
+					</ul>
+					<ul>
+						<li>官方微信</li>
+						<li></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="footwrap links clear">
+				<ul class="linkspic">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="linksright">
+					<ul class="clear">
+						<li>关于我们</li>
+						<li>联系我们</li>
+						<li>招聘人才</li>
+						<li>友情链接</li>
+						<li>Copyright© 顺丰优选 sfbest.com 版权所有</li>
+					</ul>
+					<ul class="clear">
+						<li>京公网安备11010502026831号</li>
+						<li>关于我们</li>
+						<li>京ICP证150325号</li>
+						<li>食品经营许可证JY11113080533669号</li>
+						<li>企业营业执照</li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
